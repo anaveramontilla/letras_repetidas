@@ -1,0 +1,13 @@
+* {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
