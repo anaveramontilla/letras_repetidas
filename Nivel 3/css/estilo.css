@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  font-family: "Varela Round", sans-serif; }
+
+body {
+  background-image: url("../img/blackboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container .cabecera {
+  position: sticky;
+  top: 0;
+  background-color: #349641;
+  color: white;
+  text-align: center;
+  padding: 40px; }
+.container .central {
+  margin: 40px 40px 0px 40px;
+  display: flex;
+  flex-flow: column nowrap; }
+  .container .central div:nth-child(1) {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden; }
+    .container .central div:nth-child(1) h2 {
+      background-color: #0c8891;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; }
+    .container .central div:nth-child(1) p {
+      margin: 40px; }
+  .container .central div:nth-child(2) {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden; }
+    .container .central div:nth-child(2) h2 {
+      background-color: #0c8891;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; }
+    .container .central div:nth-child(2) p {
+      margin: 40px; }
+  .container .central div:nth-child(3) {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden; }
+    .container .central div:nth-child(3) h2 {
+      background-color: #0c8891;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; }
+    .container .central div:nth-child(3) p {
+      margin: 40px; }
+  .container .central div:nth-child(4) {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden; }
+    .container .central div:nth-child(4) h2 {
+      background-color: #0c8891;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; }
+    .container .central div:nth-child(4) p {
+      margin: 40px; }
+  .container .central div:nth-child(5) {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden; }
+    .container .central div:nth-child(5) h2 {
+      background-color: #0c8891;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; }
+    .container .central div:nth-child(5) p {
+      margin: 40px; }
+.container .inferior {
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0px 40px 40px 40px; }
+  .container .inferior h2 {
+    background-color: #0c8891;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%; }
+  .container .inferior p {
+    margin: 40px; }
+  .container .inferior p {
+    margin: 40px; }
+.container .btn {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700; }
+  .container .btn:focus {
+    outline: none; }
+  .container .btn:hover {
+    background-color: #ffbb00;
+    color: white; }
+
+@media (min-width: 1200px) {
+  .container .central {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; }
+    .container .central div:nth-child(1) {
+      margin-bottom: 0px; }
+    .container .central div:nth-child(2) {
+      margin-bottom: 0px; } }
+
+/*# sourceMappingURL=estilo.css.map */
